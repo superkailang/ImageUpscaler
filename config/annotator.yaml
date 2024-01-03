@@ -1,0 +1,15 @@
+InterpolationProcessor:
+  process: InterpolationProcessor
+  input: [ ]
+R_ESRGAN_4x:
+  process: RealESRGANProcessor
+  input: [ ]
+SwinIR4X:
+  process: SwinIRProcessor
+  input: [ ]
+Nearest:
+  process: NearestProcessor
+  input: [ ]
+Lanczos:
+  process: LanczosProcessor
+  input: [ ]
